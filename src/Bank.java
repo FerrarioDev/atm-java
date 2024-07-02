@@ -86,4 +86,8 @@ public class Bank {
     public void addAccount(Account newAccount){
         this.accounts.add(newAccount);
     }
+
+    public String getName(){
+        return this.name;
+    }
 }
